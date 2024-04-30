@@ -82,8 +82,8 @@ class Program
     static void Main(string[] args)
     {
         UserCredentials userCredentials = new UserCredentials(2);
-        userCredentials.RegisterUser("Антон", "Петров");
-        userCredentials.RegisterUser("Вадим", "Сидоров");
+        userCredentials.RegisterUser("Антон", "123456");
+        userCredentials.RegisterUser("Вадим", "78910");
 
         Console.WriteLine("Зарегистрированные пользователи:");
         for (int i = 0; i < userCredentials.Length(); i++)
